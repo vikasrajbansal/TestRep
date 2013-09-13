@@ -13,10 +13,12 @@
 @end
 
 @implementation ViewController
+#define kTest @"test"
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"%@ %@",kTest,self.class);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
